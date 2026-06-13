@@ -1,0 +1,30 @@
+{
+  "name": "slider-carousel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "keywords": [
+    "Carousel",
+    "Slider",
+    "slideshow",
+    "images"
+  ],
+  "author": "Marcelo de Miranda aka @martchelou",
+  "homepage": "martchelou.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martchelou/slider-carousel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martchelou/slider-carousel/issues"
+  },
+  "license": "Creative Commons",
+  "type": "module",
+  "scripts": {
+    "dev:js":"node build.js",
+    "dev:css": "sass --watch --style=compressed ./assets/sass/index.scss:./public/css/style.min.css"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
